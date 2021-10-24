@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wish List</title>
+  </head>
+  <body>
+    <section class="phone-container">
+      <img src="img/phone.jpg" />
+
+      <div class="top-container">
+        <div class="phone-status">
+          <div class="status-icons">
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+
+            <div class="no-color-icon"></div>
+            <div class="no-color-icon"></div>
+
+            <i class="fa fa-wifi"></i>
+          </div>
+          <div class="time">
+            <h3>9:22pm</h3>
+          </div>
+
+          <div class="health-bar">
+            <h3>100%</h3>
+            <i class="fa fa-battery-full"></i>
+          </div>
+        </div>
+
+        <div class="shop-menu">
+          <i class="fa fa-arrow-left"></i>
+          <h2>My Cart</h2>
+
+          <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <p class="gamesAdded">1</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="game-details">
+          <div class="firstGame">
+            <img src="img/northgard.jpg">
+            <div class="right-detail">
+            <h2 class="title1">Title: NorthGard</h2>
+            <h3>Genre: Strategy</h3>
+            <p>Developer: Shiro Games</p>
+            <p id="649.95" class="north-price">Price: P649.95</p>
+            <a href="https://store.steampowered.com/app/466560/Northgard/">Store Link</a>
+            <p>Release Date: thea</p>
+            <a href="#" class="firstDel">DELETE</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="add-game">
+          <button class="addBTN">Add Game</button>
+        </div>
+      </div>
+    </div>
+
+      <div class="checkout">
+        <p>Total: <span class="items">1 </span> Items</p>
+        <h2>Price: P<span class="priceTotal">0</span></h2>
+        <a href="#">Checkout</a>
+      </div>
+
+      <div class="form-background"></div>
+
+      <div class="add-form">
+        <form class="form-holder">
+          <h1>Add a Game</h1>
+          <h4>Please Fill this form to add a game!</h4>
+          <input type="text" name="title" id="title" placeholder="Title" required/> 
+          <input
+            type="text"
+            name="genre"
+            id="genre"
+            placeholder="Genre" required
+          />
+          <input type="text" name="developer" id="developer" placeholder="Developer" required/> 
+          <input type="number" name="price" id="price" placeholder="Price" required/> 
+          <input type="url" name="store" id="store" placeholder="Store Link" required/>
+          <input type="number" name="store" id="release" placeholder="Release Date" required/>
+
+          <a href="#" class="add-game-btn">Add</a>
+         
+        </form>
+      </div>
+
+  
+      <div class="maximum">
+        <h1>You can only checkout a maximum of 5 items!</h1>
+      </div>
+
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
